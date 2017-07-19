@@ -11,53 +11,35 @@ seed, where 0 indicates a dead cell and 1 indicates a live cell.
 Your task here is to find the next population's pattern after one step in time."""
 import numpy as np
 
-def nextGameOfLife(seed):
+
+def next_game_of_life(seed):
     """Input: seed only contains arrays of 1's and 0's.
     Guaranteed constraints: 1≤ seed.length ≤ 100, 1≤ seed[i].length ≤ 100,
     All seed[i].length are guaranteed to be the same, no matter what i is.
     Output: Returns an array that shows what seed looks like after one step."""
-    num_rows = len(seed)
     num_columns = len(seed[0])
     next_stage = [[]]
 
-    for row_index in range(num_rows):
-        row = seed[row_index]
-        row_above = seed[max(row_index-1, 0)]
-        row_below = seed[min(row_index+1, num_rows)]
+    for row_index in range(len(seed)):
+        next_stage.append(get_new_row_state(seed, row_index, num_columns))
 
-        if row_index == 0:
-            get_neighbors_first_row(row, row_below, num_columns)
-        elif row_index == num_rows:
-            get_neighbors_last_row()
-        else:
-            next_stage.append(get_neighbors_row(row, row_above, row_below, num_columns)
+    return next_stage
 
 
-def get_neighbors_first_row(row, row_below, num_columns, next_stage_row):
-    counter = 0
-    for ci in range(num_columns):
-        if row[ci - 1]:
-            counter += 1
-        if row[ci + 1]:
-            counter += 1
-
-        if row_below[ci - 1]:
-            counter += 1
-        if row_below[ci]:
-            counter += 1
-        if row_below[ci + 1]:
-            counter += 1
-
-        next_stage_row.append(get_new_state(counter, row[ci]))
-
-
-def get_neighbors_row(row, row_above, row_below, num_columns):
-
+def get_new_row_state(seed, row_index, num_columns):
+    row = seed[row_index]
     counter_row = get_counter_row(row, num_columns)
-    counter_above = get_counter_neighboring_row(row_above, num_columns)
-    counter_below = get_counter_neighboring_row(row_below, num_columns)
+    counters = np.array(counter_row)
 
-    counters = np.array(counter_row) + np.array(counter_above) + np.array(counter_below)
+    if row_index != 0:
+        row_above = seed[row_index - 1]
+        counter_above = get_counter_neighboring_row(row_above, num_columns)
+        counters += np.array(counter_above)
+
+    if row_index != len(seed)-1:
+        row_below = seed[row_index + 1]
+        counter_below = get_counter_neighboring_row(row_below, num_columns)
+        counters += np.array(counter_below)
 
     next_stage_row = get_new_states(counters, row)
 
@@ -86,9 +68,9 @@ def get_counter_row(row, num_columns):
 
     for ci in range(num_columns):
         c = 0
-        if row[ci - 1]:
+        if ci != 0 and row[ci - 1]:
             c += 1
-        if row[ci + 1]:
+        if ci != num_columns-1 and row[ci + 1]:
             c += 1
         counters.append(c)
 
@@ -100,11 +82,11 @@ def get_counter_neighboring_row(row, num_columns):
 
     for ci in range(num_columns):
         c = 0
-        if row[ci - 1]:
+        if ci != 0 and row[ci - 1]:
             c += 1
         if row[ci]:
             c += 1
-        if row[ci + 1]:
+        if ci != num_columns - 1 and row[ci + 1]:
             c += 1
         counters.append(c)
 
@@ -112,10 +94,7 @@ def get_counter_neighboring_row(row, num_columns):
 
 
 s = [[0,1,0],
- [0,1,0],
- [0,1,0]]
-#nextGameOfLife(s)
+    [0,1,1],
+    [1,1,0]]
 
-a = np.array([1,2,3])
-b = np.array([1,2,4])
-print(a+b)
+print(get_new_row_state(s, 1, 3))
