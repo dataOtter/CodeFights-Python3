@@ -9,7 +9,6 @@ vertically, horizontally, or diagonally adjacent.
 In this challenge, the initial population is represented as a matrix of integers,
 seed, where 0 indicates a dead cell and 1 indicates a live cell.
 Your task here is to find the next population's pattern after one step in time."""
-import numpy as np
 
 
 def next_game_of_life(seed):
@@ -18,7 +17,7 @@ def next_game_of_life(seed):
     All seed[i].length are guaranteed to be the same, no matter what i is.
     Output: Returns an array that shows what seed looks like after one step."""
     num_columns = len(seed[0])
-    next_stage = [[]]
+    next_stage = []
 
     for row_index in range(len(seed)):
         next_stage.append(get_new_row_state(seed, row_index, num_columns))
@@ -27,19 +26,24 @@ def next_game_of_life(seed):
 
 
 def get_new_row_state(seed, row_index, num_columns):
+    counters = []
     row = seed[row_index]
     counter_row = get_counter_row(row, num_columns)
-    counters = np.array(counter_row)
 
     if row_index != 0:
         row_above = seed[row_index - 1]
         counter_above = get_counter_neighboring_row(row_above, num_columns)
-        counters += np.array(counter_above)
+    else:
+        counter_above = [0] * num_columns
 
     if row_index != len(seed)-1:
         row_below = seed[row_index + 1]
         counter_below = get_counter_neighboring_row(row_below, num_columns)
-        counters += np.array(counter_below)
+    else:
+        counter_below = [0] * num_columns
+
+    for i in range(num_columns):
+        counters.append(counter_row[i] + counter_above[i] + counter_below[i])
 
     next_stage_row = get_new_states(counters, row)
 
@@ -53,7 +57,7 @@ def get_new_states(counters, row):
         c = counters[i]
         new_state = 0
         if row[i]:
-            if c == 2 and c == 3:
+            if c == 2 or c == 3:
                 new_state = 1
         else:
             if c == 3:
@@ -97,4 +101,4 @@ s = [[0,1,0],
     [0,1,1],
     [1,1,0]]
 
-print(get_new_row_state(s, 1, 3))
+print(next_game_of_life(s))
