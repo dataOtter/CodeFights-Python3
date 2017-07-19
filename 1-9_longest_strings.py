@@ -2,7 +2,9 @@
 
 
 def all_longest_strings(input_array):
-    """A non-empty array. Guaranteed constraints: 1 ≤ inputArray.length ≤ 10, 1 ≤ inputArray[i].length ≤ 10."""
+    """Input: A non-empty array. Guaranteed constraints:
+    1 ≤ inputArray.length ≤ 10, 1 ≤ inputArray[i].length ≤ 10.
+    Output: Returns an array of all longest strings from the input array."""
     longest_length = 0
     longest_strings = []
 
