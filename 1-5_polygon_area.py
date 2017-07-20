@@ -5,7 +5,7 @@ and appending 1-interesting polygons to its rim, side by side."""
 
 
 def shape_area(n):
-    """Input: Guaranteed constraints: 1 ≤ n < 104.
+    """Input: Guaranteed constraints: 1 ≤ n < 10**4.
     Output: Returns the area of an n-interesting polygon for the given n."""
     area = (2*n*n) - (2*n) + 1
     return area

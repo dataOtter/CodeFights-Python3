@@ -21,7 +21,6 @@ def all_longest_strings(input_array):
 
     return longest_strings
 
-
 a = ["a",
  "abc",
  "cbd",
@@ -30,4 +29,4 @@ a = ["a",
  "abcdef",
  "asasa",
  "aaaaaa"]
-print(allLongestStrings(a))
+print(all_longest_strings(a))

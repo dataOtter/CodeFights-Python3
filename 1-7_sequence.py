@@ -4,7 +4,7 @@ by removing no more than one element from the array."""
 
 
 def almost_increasing_sequence(sequence):
-    """Input: Guaranteed constraints: 2 ≤ sequence.length ≤ 105, -105 ≤ sequence[i] ≤ 105.
+    """Input: Guaranteed constraints: 2 ≤ sequence.length ≤ 10**5, -10**5 ≤ sequence[i] ≤ 10**5.
     Output: Returns true if sequence is almost increasing."""
     index_a = find_first_violation(sequence)
     success = True
