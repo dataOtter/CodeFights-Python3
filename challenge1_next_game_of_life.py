@@ -9,6 +9,7 @@ vertically, horizontally, or diagonally adjacent.
 In this challenge, the initial population is represented as a matrix of integers,
 seed, where 0 indicates a dead cell and 1 indicates a live cell.
 Your task here is to find the next population's pattern after one step in time."""
+import numpy as np
 
 
 def next_game_of_life(seed):
@@ -32,18 +33,18 @@ def get_new_row_state(seed, row_index, num_columns):
 
     if row_index != 0:
         row_above = seed[row_index - 1]
-        counter_above = get_counter_neighboring_row(row_above, num_columns)
+        counter_above = get_counter_row(row_above, num_columns)
     else:
         counter_above = [0] * num_columns
 
     if row_index != len(seed)-1:
         row_below = seed[row_index + 1]
-        counter_below = get_counter_neighboring_row(row_below, num_columns)
+        counter_below = get_counter_row(row_below, num_columns)
     else:
         counter_below = [0] * num_columns
 
     for i in range(num_columns):
-        counters.append(counter_row[i] + counter_above[i] + counter_below[i])
+        counters.append(counter_row[i] - row[i] + counter_above[i] + counter_below[i])
 
     next_stage_row = get_new_states(counters, row)
 
@@ -72,33 +73,27 @@ def get_counter_row(row, num_columns):
 
     for ci in range(num_columns):
         c = 0
-        if ci != 0 and row[ci - 1]:
+        if ci != 0 and row[ci - 1] == 1:
             c += 1
-        if ci != num_columns-1 and row[ci + 1]:
+        if row[ci] == 1:
             c += 1
-        counters.append(c)
-
-    return counters
-
-
-def get_counter_neighboring_row(row, num_columns):
-    counters = []
-
-    for ci in range(num_columns):
-        c = 0
-        if ci != 0 and row[ci - 1]:
-            c += 1
-        if row[ci]:
-            c += 1
-        if ci != num_columns - 1 and row[ci + 1]:
+        if ci != num_columns - 1 and row[ci + 1] == 1:
             c += 1
         counters.append(c)
 
     return counters
 
 
-s = [[0,1,0],
-    [0,1,1],
-    [1,1,0]]
+s = [[0,0,0],
+    [1,1,1],
+    [0,0,0]]
 
-print(next_game_of_life(s))
+print(np.array(s))
+
+s = next_game_of_life(s)
+
+print(np.array(s))
+
+s = next_game_of_life(s)
+
+print(np.array(s))

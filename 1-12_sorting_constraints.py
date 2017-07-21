@@ -21,6 +21,8 @@ def sort_by_height(a):
     a.sort()
 
     while tree_locations:
+        # This insert will never be beyond the currently last element of a,
+        # because tree location is in increasing order from when it was appended.
         a.insert(tree_locations[0], -1)
         tree_locations.pop(0)
 

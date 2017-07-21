@@ -10,10 +10,10 @@ def common_character_count(s1, s2):
     s2_list = list(s2)
 
     for element in s1_list:
-        if element in s2_list:
+        if element in s2_list: # function to compare elements from sorted list i.e. a<b
             counter += 1
             s2_list.remove(element)
-            print(s2_list)
+            #print(s2_list)
 
     return counter
 
@@ -21,4 +21,6 @@ def common_character_count(s1, s2):
 s1 = "abca"
 s2 = "xyzbac"
 print(common_character_count(s1, s2))
+
+print('a'<'b')
 

@@ -12,18 +12,18 @@ def matrix_elements_sum(matrix):
     Guaranteed constraints: 1 ≤ matrix.length ≤ 5, 1 ≤ matrix[i].length ≤ 5, 0 ≤ matrix[i][j] ≤ 10.
     Output: Returns the sum (total price) of all eligible room prices."""
 
-    indices_to_add = []
+    indices_to_sub = []
     sum_price = sum(map(sum, matrix))
 
     for row_index in range(len(matrix)):
         #print("current total: " + str(sum_price))
-        #print(row_index, set(indices_to_add))
-        for column_index in set(indices_to_add):
+        #print(row_index, set(indices_to_sub))
+        for column_index in indices_to_sub:
             sum_price -= matrix[row_index][column_index]
 
         for index, element in enumerate(matrix[row_index]):
-            if element == 0:
-                indices_to_add.append(index)
+            if element == 0 and index not in indices_to_sub:
+                indices_to_sub.append(index)
 
     return sum_price
 
