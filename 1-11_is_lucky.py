@@ -4,7 +4,7 @@ of the digits is equal to the sum of the second half.
 Given a ticket number n, determine if it's lucky or not."""
 
 
-def is_lucky(n):
+def is_lucky_long_version(n):
     """Input: A ticket number represented as a positive integer with an even number of digits.
     Guaranteed constraints: 10 ≤ n < 10**6.
     Output: Returns true if the sum of the first half of the digits equals the sum of the second."""
@@ -24,7 +24,8 @@ def is_lucky(n):
     return lucky
 
 
-def is_lucky2(n):
+def is_lucky_short_version(n):
+    """Shorter version of the above"""
     l = [int(x) for x in str(n)]
     h = int(len(l)/2)
 
@@ -32,4 +33,4 @@ def is_lucky2(n):
 
 
 n = 261534
-print(is_lucky2(n))
+print(is_lucky_short_version(n))

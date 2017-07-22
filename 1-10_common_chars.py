@@ -6,21 +6,24 @@ def common_character_count(s1, s2):
     Guaranteed constraints for both input strings: 1 ≤ str.length ≤ 15.
     Output: Returns the number of common characters between the two input strings."""
     counter = 0
-    s1_list = list(s1)
-    s2_list = list(s2)
+    # sorting improves efficiency when looping
+    sort1 = sorted(s1)
+    sort2 = sorted(s2)
 
-    for element in s1_list:
-        if element in s2_list: # function to compare elements from sorted list i.e. a<b
-            counter += 1
-            s2_list.remove(element)
-            #print(s2_list)
+    for i in range(len(sort1)):
+        s = sort1[i]
+        j = 0
+        while len(sort2) != 0 and s >= sort2[j]:
+            if s == sort2[j]:
+                counter += 1
+                sort2.remove(s)    # to avoid duplicate matching
+                break
+            j += 1
 
     return counter
 
 
-s1 = "abca"
-s2 = "xyzbac"
+s1 = "abcaeeeeeee"
+s2 = "abc"
 print(common_character_count(s1, s2))
-
-print('a'<'b')
 

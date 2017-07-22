@@ -26,3 +26,18 @@ def candies(n, m):
     return m - (m % n)
 
 
+def seats_in_theater(n_cols, n_rows, col, row):
+    """Given the total number of rows and columns in the theater (nRows and nCols, respectively),
+    and the row and column you're sitting in, return the number of people who sit strictly behind you
+    and in your column or to the left, assuming all seats are occupied.
+    Input: Integers nCols, nRows, the number of theater's columns and rows,
+    and col, row, the column and row number of your own seat (1-based).
+    Guaranteed constraints: 1 ≤ nCols, nRows ≤ 1000, 1 ≤ col ≤ nCols, 1 ≤ row ≤ nRows
+    Output: Returns an integer, number of people who sit strictly behind you and in your column or to the left."""
+    return (n_cols - col + 1) * (n_rows - row)
+
+
+
+
+
+
