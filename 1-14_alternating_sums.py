@@ -9,5 +9,25 @@ and the second element is the total weight of team 2 after the division is compl
 def alternating_sums(a):
     """Input: array.integer a. Guaranteed constraints: 1 ≤ a.length ≤ 10, 45 ≤ a[i] ≤ 100.
     Output: Returns array.integer containing the total weight of each team."""
+    team1 = []
+    team2 = []
+
     for i in range(len(a)):
-        if i%2 ==
+        if i % 2 == 0:
+            team1.append(a[i])
+        else:
+            team2.append(a[i])
+
+    result = [sum(team1), sum(team2)]
+
+    return result
+
+
+def alternating_sums2(a):
+    team1 = sum(a[::2])
+    team2 = sum(a[1::2])
+    return [team1, team2]
+
+
+a = [50, 60, 60, 45, 70]
+print(alternating_sums2(a))
