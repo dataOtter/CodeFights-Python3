@@ -14,7 +14,5 @@ def add_border(picture):
 
     return border
 
-
-picture = ["abc",
-               "ded"]
+picture = ["abc", "ded"]
 print(add_border(picture))

@@ -4,8 +4,8 @@ Find the minimal number of moves required to obtain a strictly increasing sequen
 
 
 def array_change(array_in):
-    """Input: array.integer inputArray.
-    Guaranteed constraints: 3 ≤ inputArray.length ≤ 105, -105 ≤ inputArray[i] ≤ 105.
+    """Input: array.integer array_in.
+    Guaranteed constraints: 3 ≤ array_in.length ≤ 105, -105 ≤ array_in[i] ≤ 105.
     Output: integer. The minimal number of moves needed to obtain a strictly increasing sequence from inputArray.
     It's guaranteed that for the given test cases the answer always fits signed 32-bit integer type."""
     counter = 0
