@@ -76,7 +76,6 @@ def add_clues_row(i, j, c, board):
     if j < c - 1:
         add_clues_column(i, j + 1, board)
 
-
 gameboard = [[0,0,0,0,0],
  [0,1,1,1,0],
  [0,1,9,1,0],

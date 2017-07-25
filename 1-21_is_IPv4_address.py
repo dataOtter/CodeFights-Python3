@@ -12,10 +12,9 @@ def is_ipv4_address(string_in: str):
 
     if len(s) != 4:
         ipv4 = False
-
     else:
         for x in s:
-            # isdigit() only works on positive integers, so making sure 0 <= int(x) is redundant
+            # isdigit() only works on positive integers, so making sure 0 <= int(x) would be redundant
             if not x.isdigit() or int(x) > 255:
                 ipv4 = False
                 break
