@@ -14,7 +14,7 @@ def raise_it(arg):
 
     return result'''
 
-    return sum(pow(int(n / 10), n % 10) for n in arg)
+    return sum(pow(n // 10, n % 10) for n in arg)
 
 arg1 = [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
 print(raise_it(arg1))
