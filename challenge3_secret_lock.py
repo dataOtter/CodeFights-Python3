@@ -1,4 +1,7 @@
-"""CFBot stores all of her important information in the Secret Archives.
+"""
+SUBMITTED IN JAVASCRIPT. THIS PYTHON SOLUTION NOT FINISHED.
+
+CFBot stores all of her important information in the Secret Archives.
 CodeMaster is trying to pick the lock! The lock, a metal rectangle composed of movable cells,
 is unique and hard to pick. Some of the lock’s cells are occupied, and some are empty.
 The lock is unlocked when its occupied cells form a specific configuration.

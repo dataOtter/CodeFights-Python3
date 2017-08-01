@@ -11,22 +11,40 @@ import math as m
 def raiseItMinLength(n):
     """Input: integer n. Guaranteed constraints: 0 ≤ n ≤ 10**5.
     Output: integer. The length of the shortest array arr such that raiseIt(arr) = n."""
+    p = get_powers()
+    l = 1
     if n == 0:
         return 0
-
-    a_len = 0
-    a = best_base(n)
-
-    while a[0]**a[1] != n:
-        print(a)
-        n -= (a[0]**a[1])
-        a = best_base(n)
-        a_len += 1
-
-    return a_len
+    while not check_len(n, p, l):
+        l += 1
+    return l
 
 
-def best_base(n):
+def check_len(n, p, lev):
+    if lev == 1:
+        return check_len1(n, p)
+    else:
+        for i in p:
+            if check_len(n-i, p, lev-1):
+                    return True
+
+
+def check_len1(n, p):
+    for i in p:
+        if n == i:
+            return True
+    return False
+
+
+def get_powers():
+    powers = [1]
+    for i in range(2, 10):
+        for j in range(1, 10):
+            powers.append(i**j)
+    return sorted(set(powers))
+
+
+'''def best_base(n):
     dec = 1
     for b in range(2, 10):
         exp = m.log(n, b)
@@ -38,6 +56,6 @@ def best_base(n):
             dec = ydec
             base, y = b, int(exp)
 
-    return [base, y]
+    return [base, y]'''
 
-print(raiseItMinLength(16))
+print(raiseItMinLength(7221))
