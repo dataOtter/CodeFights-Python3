@@ -29,50 +29,49 @@ def chainReaction1(n, moves):
 
 
 def check(b, n, r, c):
-    if r == 0:
-        if b[r][c] == 2:
-            if c == 0:
-                b[r][c] = 0
-                add_element(b, r + 1, c)
-                add_element(b, r, c + 1)
-            elif c == n - 1:
-                b[r][c] = 0
-                add_element(b, r + 1, c)
-                add_element(b, r, c - 1)
-        elif b[r][c] == 3:
-            b[r][c] = 0
-            add_element(b, r + 1, c)
-            add_element(b, r, c - 1)
-            add_element(b, r, c + 1)
-
-    elif r == n - 1:
-        if b[r][c] == 2:
-            if c == 0:
-                b[r][c] = 0
-                add_element(b, r - 1, c)
-                add_element(b, r, c + 1)
-            elif c == n - 1:
-                b[r][c] = 0
-                add_element(b, r - 1, c)
-                add_element(b, r, c - 1)
-        elif b[r][c] == 3:
-            b[r][c] = 0
-            add_element(b, r - 1, c)
-            add_element(b, r, c - 1)
-            add_element(b, r, c + 1)
-
-    elif b[r][c] == 4:
+    t = threshhold(r, c, n)
+    if b[r][c] == t:
         b[r][c] = 0
-        add_element(b, r - 1, c)
-        b[r + 1][c] += 1
-        add_element(b, r, c - 1)
-        add_element(b, r, c + 1)
+        pos = positions(r, c, n)
+        for p in pos:
+            nr, nc = p[0], p[1]
+            b[nr][nc] += 1
+            check(b, n, nr, nc)
+        #for p in pos:
+            #check(b, n, p[0], p[1])
 
 
-def add_element(b, r, c):
-    b[r][c] += 1
+def threshhold(r, c, n):
+    t = 4
+    if r == 0:
+        t -= 1
+    elif r == n - 1:
+        t -= 1
+    if c == 0:
+        t -= 1
+    elif c == n - 1:
+        t -= 1
+    return t
 
 
+def positions(r, c, n):
+    p = []
+    if r > 0:
+        p.append([r - 1, c])
+    if r < n - 1:
+        p.append([r + 1, c])
+    if c > 0:
+        p.append([r, c - 1])
+    if c < n - 1:
+        p.append([r, c + 1])
+    return p
 
-moves = [[0, 0], [0, 0]]
+
+moves = [[1,1],
+ [1,2],
+ [1,1],
+ [1,2],
+ [1,1],
+ [1,2],
+ [1,1]]
 print(chainReaction1(4, moves))
