@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1755e52a-ce07-4b4a-9c67-5e1fc2d8cefa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/challenge7_chain_reaction1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/challenge8_base_conversions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/challenge9_dungeon_blaster.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/challenge6_chain_reaction1.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1-7_sequence.py" afterPath="$PROJECT_DIR$/arcade1_7_sequence.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1-8_matrix_calculations.py" afterPath="$PROJECT_DIR$/arcade1_8_matrix_calculations.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1_1-3_add,century,palindrome.py" afterPath="$PROJECT_DIR$/arcade1_1-3_add,century,palindrome.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1_12-14_sorting,str_operations,alt_sums.py" afterPath="$PROJECT_DIR$/arcade1_12-14_sorting,str_operations,alt_sums.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1_15-17_border,similar_arr,arr_change.py" afterPath="$PROJECT_DIR$/arcade1_15-17_border,similar_arr,arr_change.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1_4-6_product,polygon_area,array.py" afterPath="$PROJECT_DIR$/arcade1_4-6_product,polygon_area,array.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1_9-11_longest_str,common_chars,is_lucky.py" afterPath="$PROJECT_DIR$/arcade1_9-11_longest_str,common_chars,is_lucky.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/challenge10_obfuscation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/challenge11_network_address.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,16 +16,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="challenge4_prime_sums.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/challenge4_prime_sums.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="challenge5_lazy_beaver_turing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenge5_lazy_beaver_turing.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +88,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="challenge9_dungeon_blaster.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="challenge9_dungeon_blaster.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenge9_dungeon_blaster.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2964">
               <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="challenge10_obfuscation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/challenge10_obfuscation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="77" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="challenge11_network_address.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/challenge11_network_address.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -185,6 +186,8 @@
         <option value="$PROJECT_DIR$/challenge7_base_conversions.py" />
         <option value="$PROJECT_DIR$/../python_gss/csv_to_dataframe.py" />
         <option value="$PROJECT_DIR$/challenge9_dungeon_blaster.py" />
+        <option value="$PROJECT_DIR$/challenge10_obfuscation.py" />
+        <option value="$PROJECT_DIR$/challenge11_network_address.py" />
       </list>
     </option>
   </component>
@@ -243,43 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.challenge9_dungeon_blaster">
-    <configuration default="false" name="challenge6_prime_sums2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CodeFights-Python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge6_prime_sums2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="challenge6_chain_reaction1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CodeFights-Python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge6_chain_reaction1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.challenge11_network_address">
     <configuration default="false" name="challenge7_chain_reaction1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,6 +296,42 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CodeFights-Python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge9_dungeon_blaster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="challenge10_obfuscation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeFights-Python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge10_obfuscation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="challenge11_network_address" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeFights-Python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge11_network_address.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -415,19 +418,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.challenge6_prime_sums2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.challenge6_chain_reaction1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.challenge7_chain_reaction1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.challenge7_base_conversions" />
-      <item index="4" class="java.lang.String" itemvalue="Python.challenge9_dungeon_blaster" />
+      <item index="0" class="java.lang.String" itemvalue="Python.challenge7_chain_reaction1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.challenge7_base_conversions" />
+      <item index="2" class="java.lang.String" itemvalue="Python.challenge9_dungeon_blaster" />
+      <item index="3" class="java.lang.String" itemvalue="Python.challenge10_obfuscation" />
+      <item index="4" class="java.lang.String" itemvalue="Python.challenge11_network_address" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.challenge9_dungeon_blaster" />
-        <item index="1" class="java.lang.String" itemvalue="Python.challenge7_base_conversions" />
-        <item index="2" class="java.lang.String" itemvalue="Python.challenge7_chain_reaction1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.challenge6_chain_reaction1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.challenge6_prime_sums2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.challenge11_network_address" />
+        <item index="1" class="java.lang.String" itemvalue="Python.challenge10_obfuscation" />
+        <item index="2" class="java.lang.String" itemvalue="Python.challenge9_dungeon_blaster" />
+        <item index="3" class="java.lang.String" itemvalue="Python.challenge7_base_conversions" />
+        <item index="4" class="java.lang.String" itemvalue="Python.challenge7_chain_reaction1" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +468,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10359408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2780127" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -488,26 +491,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="133" />
+      <option name="time" value="140" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-2_century.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcade1_8_matrix_calculations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/PythonProject/machine_learning/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -854,18 +842,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/challenge9_dungeon_blaster.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2964">
           <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenge10_obfuscation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="77" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenge11_network_address.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
           <folding />
         </state>
       </provider>
