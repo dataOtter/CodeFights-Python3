@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1755e52a-ce07-4b4a-9c67-5e1fc2d8cefa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/challenge6_chain_reaction1.py" afterPath="$PROJECT_DIR$/challenge6_chain_reaction1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/challenge7_chain_reaction1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/challenge8_base_conversions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/challenge9_dungeon_blaster.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/challenge6_chain_reaction1.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1-7_sequence.py" afterPath="$PROJECT_DIR$/arcade1_7_sequence.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1-8_matrix_calculations.py" afterPath="$PROJECT_DIR$/arcade1_8_matrix_calculations.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1_1-3_add,century,palindrome.py" afterPath="$PROJECT_DIR$/arcade1_1-3_add,century,palindrome.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1_12-14_sorting,str_operations,alt_sums.py" afterPath="$PROJECT_DIR$/arcade1_12-14_sorting,str_operations,alt_sums.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1_15-17_border,similar_arr,arr_change.py" afterPath="$PROJECT_DIR$/arcade1_15-17_border,similar_arr,arr_change.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1_4-6_product,polygon_area,array.py" afterPath="$PROJECT_DIR$/arcade1_4-6_product,polygon_area,array.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1_9-11_longest_str,common_chars,is_lucky.py" afterPath="$PROJECT_DIR$/arcade1_9-11_longest_str,common_chars,is_lucky.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,16 +25,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="challenge3_reverse_challenge.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/challenge3_reverse_challenge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="challenge4_prime_sums.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenge4_prime_sums.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,19 +48,31 @@
       <file leaf-file-name="challenge6_prime_sums2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenge6_prime_sums2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-250">
+            <state relative-caret-position="63">
               <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="challenge6_chain_reaction1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/challenge6_chain_reaction1.py">
+      <file leaf-file-name="challenge8_base_conversions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/challenge8_base_conversions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="66" selection-end-column="12" />
+            <state relative-caret-position="550">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="challenge7_chain_reaction1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/challenge7_chain_reaction1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="e#558#576#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,8 +80,8 @@
       <file leaf-file-name="1-13_reverse_string_sections.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-13_reverse_string_sections.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            <state relative-caret-position="129">
+              <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -84,16 +97,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-11_is_lucky.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-11_is_lucky.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="problems_arrays.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems_arrays.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problems_integers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems_integers.py">
+      <file leaf-file-name="challenge9_dungeon_blaster.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/challenge9_dungeon_blaster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="-2964">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -122,6 +125,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>Addin</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -172,13 +181,17 @@
         <option value="$PROJECT_DIR$/challenge3_secret_lock.py" />
         <option value="$PROJECT_DIR$/challenge6_prime_sums2.py" />
         <option value="$PROJECT_DIR$/challenge6_chain_reaction1.py" />
+        <option value="$PROJECT_DIR$/challenge7_chain_reaction1.py" />
+        <option value="$PROJECT_DIR$/challenge7_base_conversions.py" />
+        <option value="$PROJECT_DIR$/../python_gss/csv_to_dataframe.py" />
+        <option value="$PROJECT_DIR$/challenge9_dungeon_blaster.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -230,61 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.challenge6_chain_reaction1">
-    <configuration default="false" name="challenge3_reverse_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CodeFights-Python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge3_reverse_challenge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="challenge4_prime_sums" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CodeFights-Python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge4_prime_sums.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="challenge5_lazy_beaver_turing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CodeFights-Python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge5_lazy_beaver_turing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.challenge9_dungeon_blaster">
     <configuration default="false" name="challenge6_prime_sums2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,6 +275,60 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CodeFights-Python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge6_chain_reaction1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="challenge7_chain_reaction1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeFights-Python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge7_chain_reaction1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="challenge7_base_conversions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeFights-Python3" />
+      <option name="SCRIPT_NAME" value="C:\Users\Maisha\Dropbox\MB_dev\Python\CodeFights-Python3\challenge8_base_conversions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="challenge9_dungeon_blaster" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeFights-Python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge9_dungeon_blaster.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -402,19 +415,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.challenge3_reverse_challenge" />
-      <item index="1" class="java.lang.String" itemvalue="Python.challenge4_prime_sums" />
-      <item index="2" class="java.lang.String" itemvalue="Python.challenge5_lazy_beaver_turing" />
-      <item index="3" class="java.lang.String" itemvalue="Python.challenge6_prime_sums2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.challenge6_chain_reaction1" />
+      <item index="0" class="java.lang.String" itemvalue="Python.challenge6_prime_sums2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.challenge6_chain_reaction1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.challenge7_chain_reaction1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.challenge7_base_conversions" />
+      <item index="4" class="java.lang.String" itemvalue="Python.challenge9_dungeon_blaster" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.challenge6_chain_reaction1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.challenge6_prime_sums2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.challenge5_lazy_beaver_turing" />
-        <item index="3" class="java.lang.String" itemvalue="Python.challenge4_prime_sums" />
-        <item index="4" class="java.lang.String" itemvalue="Python.challenge3_reverse_challenge" />
+        <item index="0" class="java.lang.String" itemvalue="Python.challenge9_dungeon_blaster" />
+        <item index="1" class="java.lang.String" itemvalue="Python.challenge7_base_conversions" />
+        <item index="2" class="java.lang.String" itemvalue="Python.challenge7_chain_reaction1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.challenge6_chain_reaction1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.challenge6_prime_sums2" />
       </list>
     </recent_temporary>
   </component>
@@ -440,19 +453,19 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21614583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21659708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19661734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23255815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46617335" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10359408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -475,33 +488,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="112" />
+      <option name="time" value="133" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-5_polygon_area.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-4_largest_product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-3_palindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1-2_century.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -509,20 +500,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-8_matrix_calculations.py">
+    <entry file="file://$PROJECT_DIR$/arcade1_8_matrix_calculations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_gss/csv_to_dataframe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1-1_add.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -629,7 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_1-3_add,century,palindrome.py">
+    <entry file="file://$PROJECT_DIR$/arcade1_1-3_add,century,palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
@@ -637,17 +612,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-7_sequence.py">
+    <entry file="file://$PROJECT_DIR$/arcade1_7_sequence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-8_matrix_calculations.py">
+    <entry file="file://$PROJECT_DIR$/arcade1_8_matrix_calculations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -679,28 +656,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_9-11_longest_str,common_chars,is_lucky.py">
+    <entry file="file://$PROJECT_DIR$/arcade1_9-11_longest_str,common_chars,is_lucky.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
           <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_4-6_product,polygon_area,array.py">
+    <entry file="file://$PROJECT_DIR$/arcade1_4-6_product,polygon_area,array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_12-14_sorting,str_operations,alt_sums.py">
+    <entry file="file://$PROJECT_DIR$/arcade1_12-14_sorting,str_operations,alt_sums.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="84" lean-forward="false" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_15-17_border,similar_arr,arr_change.py">
+    <entry file="file://$PROJECT_DIR$/arcade1_15-17_border,similar_arr,arr_change.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1132">
           <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
@@ -798,14 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems_arrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1750">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/challenge5_lazy_beaver_turing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1375">
@@ -822,26 +794,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-13_reverse_string_sections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/challenge6_prime_sums2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
+        <state relative-caret-position="63">
           <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1-13_reverse_string_sections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenge7_chain_reaction1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#558#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/challenge6_chain_reaction1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="66" selection-end-column="12" />
+        <state relative-caret-position="438">
+          <caret line="221" column="0" lean-forward="true" selection-start-line="207" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenge8_base_conversions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_gss/csv_to_dataframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenge9_dungeon_blaster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2964">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding />
         </state>
       </provider>
